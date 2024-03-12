@@ -1,0 +1,183 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.heading {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* section padding */
+.our-journey,
+.our-mission,
+.building-trust,
+.enriching-service,
+.financial {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 1025px) {
+  .our-journey,
+  .our-mission,
+  .building-trust,
+  .enriching-service,
+  .financial {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .our-journey,
+  .our-mission,
+  .building-trust,
+  .enriching-service,
+  .financial {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .our-mission .title, 
+  .building-trust .title,
+  .enriching-service .title,
+  .financial .title {
+    font-size: 18px !important;
+  }
+  .our-mission .para,
+  .building-trust .para,
+  .enriching-service .para,
+  .financial .para {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .our-mission .title, 
+  .building-trust .title,
+  .enriching-service .title,
+  .financial .title {
+    font-size: 20px !important;
+  }
+  .our-journey .para,
+  .our-mission .para,
+  .building-trust .para,
+  .enriching-service .para,
+  .financial .para {
+    font-size: 15px;
+  }
+}
+
+/* -- banner --  */
+.inner-banner {
+  margin-top: 102px;
+  height: 50vh;
+}
+
+.inner-banner > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+.inner-banner h4 {
+  font-weight: 700;
+}
+.about-banner {
+  background: url(../img/about-us/banner-bg1.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 400px;
+}
+@media only screen and (max-width: 500px) {
+  .inner-banner {
+    margin-top: 60px;
+    height: 30vh;
+  }
+}
+
+/* -- our journey --  */
+.our-journey {
+  text-align: center;
+}
+.our-journey .para {
+  color: #6a6a6a;
+  font-weight: 500;
+}
+.our-journey .over-lay-img {
+  margin-top: -80px;
+  width: 100%;
+  height: 50px;
+}
+.our-journey .over-lay-img img {
+  width: 100%;
+}
+
+/* -- our mission --  */
+.our-mission {
+  background: #f7f7f7;
+}
+.our-mission .title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #458cc9;
+}
+.our-mission .para {
+  color: #6a6a6a;
+  font-weight: 500;
+}
+.our-mission img {
+  width: 100%;
+}
+
+/* -- building-trust --  */
+.building-trust .title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #458cc9;
+}
+.building-trust .para {
+  color: #6a6a6a;
+  font-weight: 500;
+}
+.building-trust img {
+  width: 100%;
+}
+
+/* -- Enriching service -- */
+.enriching-service {
+  background: #f7f7f7;
+}
+.enriching-service .title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #458cc9;
+}
+.enriching-service .para {
+  color: #6a6a6a;
+  font-weight: 500;
+}
+.enriching-service img {
+  width: 100%;
+}
+.enriching-service-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -- financial -- */
+.financial .title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #458cc9;
+}
+.financial .para {
+  color: #6a6a6a;
+  font-weight: 500;
+}
+.financial img {
+  width: 100%;
+}
+.financial-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

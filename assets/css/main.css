@@ -1,0 +1,253 @@
+/* global */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+
+  width: 100vw;
+  overflow-x: hidden;
+}
+.nav-link {
+  cursor: pointer;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #bfbfbf !important;
+}
+.section-padding {
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.title-accent {
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+.title-dark {
+  color: #111;
+}
+.title-light {
+  color: #f4f4f4;
+}
+@media only screen and (max-width: 770px) {
+  .section-padding {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer .para1 {
+    font-size: 11px;
+  }
+  .footer ul li a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .section-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .item-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .section-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* fixed header */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+}
+.btn-accent-success {
+  background: #62ae31;
+  border-radius: 30px;
+  border-width: 0;
+  padding: 10px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* top-header */
+.top-header {
+  background: hsl(208deg 55% 53%);
+}
+.top-header > div {
+}
+.top-header > div > div {
+  display: flex;
+  align-items: center;
+}
+.top-header a {
+  display: inline-block;
+  padding: 8px 0;
+}
+.top-header a img {
+  width: 12px;
+}
+.top-header a span {
+  color: #fff;
+  font-size: 13px;
+}
+.top-header .get-appint {
+  background: hsl(208deg 69% 39%);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1025px) {
+}
+@media only screen and (max-width: 770px) {
+}
+@media only screen and (max-width: 500px) {
+  .top-header {
+    display: none;
+  }
+}
+/* header */
+.header {
+  background: hsl(0deg 0% 0%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header > nav {
+  background: #000 !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+.header .navbar-brand {
+}
+.header .navbar-brand img {
+  height: 30px;
+}
+.header .navbar-toggler {
+}
+.header .navbar-toggler > span {
+}
+.header .navbar-collapse {
+}
+.header .navbar-collapse > ul {
+}
+.header .navbar-collapse > ul > li {
+}
+.header .navbar-collapse > ul > li > a {
+  color: hsl(0deg 0% 79%) !important;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.header .navbar-collapse > ul > li > a:hover {
+  color: #62ae31 !important;
+}
+.header .navbar-collapse > ul > li > a > img {
+  width: 15px;
+  display: inline-block;
+  margin-right: 6px;
+}
+.header .no-link {
+}
+
+@media only screen and (max-width: 1025px) {
+}
+@media only screen and (max-width: 770px) {
+  .footer input {
+    font-size: 12px;
+  }
+  .footer .tnc {
+    font-size: 12px;
+  }
+  .footer .heading {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .navbar-toggler > span {
+    filter: invert(1);
+  }
+  .header .navbar-toggler {
+    border-color: #fff;
+  }
+  .footer .tnc {
+    display: inline-block !important;
+  }
+}
+/* footer */
+.footer {
+  background: #3b3b3b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #838383;
+  font-weight: 500;
+}
+.footer ul {
+  padding: 0;
+}
+.footer ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+.footer ul li a {
+  color: #838383;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  color: #fff;
+}
+.footer .heading {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer img {
+  position: absolute;
+  top: 12px;
+  left: auto;
+  right: 25px;
+  width: 27px;
+}
+.footer .hr {
+  background: #838383;
+  margin-bottom: 40px;
+}
+.footer .tnc {
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 1025px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+}
+/* media query
+* - 1025px for desktop/laptop
+* - 770px for tablet
+* - 500px for mobile
+*/

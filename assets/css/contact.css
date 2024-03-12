@@ -1,0 +1,146 @@
+html,
+body{
+  overflow-x: hidden;
+}
+.heading {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* section padding */
+.map-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 1025px) {
+  .map-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .map-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.inner-banner {
+  margin-top: 102px;
+  height: 50vh;
+}
+.inner-banner > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+.inner-banner h4 {
+  font-weight: 700;
+}
+.contact-banner {
+  background: url(../img/contact/banner-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 400px;
+}
+@media only screen and (max-width: 500px) {
+  .inner-banner {
+    margin-top: 60px;
+    height: 30vh;
+  }
+}
+.map-section {
+}
+.map-section h5 {
+  font-size: 14px;
+}
+.map-section .map-img {
+  margin: 30px 0;
+}
+.map-section .map-img img {
+}
+.form-section {
+}
+.form-section .row {
+}
+.form-section .row > div {
+  margin-bottom: 40px;
+}
+.form-section .form-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+.form-section .para1 {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 30px 0 0;
+}
+.form-section .para2 {
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+.form-section .contact-box {
+}
+.form-section .contact-box > div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0 0 10px;
+}
+.form-section .contact-box img {
+  width: 23px;
+}
+.form-section .contact-box span {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.input-placeholder {
+  position: relative;
+}
+.input-placeholder .form-control {
+  padding: 2px;
+}
+.input-placeholder .form-control:valid + .placeholder {
+  display: none;
+}
+.placeholder {
+  position: absolute;
+  pointer-events: none;
+  margin: auto;
+  color: #ccc;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 13px;
+}
+.placeholder span {
+  color: red;
+  display: inline-block;
+  margin-left: 5px;
+}
+select.form-control {
+  color: #ccc;
+}
+textarea.form-control::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+textarea.form-control:-ms-input-placeholder {
+  color: #ccc;
+}
+textarea.form-control::-ms-input-placeholder {
+  color: #ccc;
+}
+.form-section .form-control {
+  border-width: 0;
+  background: #0000000d;
+  padding: 30px 15px;
+  margin: 0 0 15px;
+  font-size: 13px;
+}
+.form-section .btn-accent-success {}
